@@ -11,40 +11,98 @@ body
     height: 100%; */
 }
 
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
 .container
 {
     display: flex;
-
-    flex-wrap: wrap;
-    /* flex-flow: ; */
-    width: 80%;
-    /* height: 1200px; */
-    height: 60vh;
-    margin: auto;
-    border: 1px solid black;
+    width: 50%;
+    height: 85vh;
+    margin: 5vh;
+    /* gap: 5px; */
 }
 
+.img1
+{
+    flex-basis: 25%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(../img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
-/* .row1
+.container2
 {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 50%;
-    border: 1px solid black;
-    justify-content: space-around;
+    flex-basis: 75%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* gap: 5px; */
 }
 
-.row1 h3
+.img5
 {
-    width: 25%;
-    border: 1px solid black;
+    flex-basis: 33.3334%;
+    height: 66.6667%;
+    background-color: aquamarine;
+    background-image: url(../img/vintage-aesthetic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.row2
+.img6
 {
-    width: 100%;
+    flex-basis: 100%;
+    height: 33.3334%;
+    background-color: turquoise;
+    background-image: url(../img/dog.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container3
+{
+    display: flex;
+    flex-basis: 66.6667%;
+    height: 66.6667%;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+}
+
+.img2
+{
+    flex-basis: 50%;
     height: 50%;
-    border: 1px solid black;
-} */
+    background-color: blue;
+    background-image: url(../img/heart.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img3
+{
+    flex-basis: 50%;
+    height: 50%;
+    background-color: darkcyan;
+    background-image: url(../img/submarine.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4
+{
+    flex-basis: 100%;
+    height: 50%;
+    background-color: blueviolet;
+    background-image: url(../img/swan.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
